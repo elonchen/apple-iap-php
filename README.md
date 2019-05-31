@@ -2,6 +2,11 @@
 
 iOS支付验证
 
+## install
+```bash
+composer require sn01615/ios-iap-php
+```
+
 ```php
 
 use sn01615\iap\ios\Verify;
