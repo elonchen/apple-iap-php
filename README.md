@@ -7,6 +7,7 @@ iOS支付验证
 composer require sn01615/ios-iap-php
 ```
 
+## use
 ```php
 
 use sn01615\iap\ios\Verify;
