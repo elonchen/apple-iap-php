@@ -14,6 +14,7 @@ class Verify
 {
 
     private $url;
+    private $password;
 
     public function __construct($sandbox = null)
     {
@@ -43,6 +44,9 @@ class Verify
         $jsonData = [
             'receipt-data' => $receipt,
         ];
+        if ($this->password) {
+            $jsonData['password'] = $this->password;
+        }
         return json_encode($jsonData);
     }
 
@@ -65,5 +69,11 @@ class Verify
         });
         $promise->wait();
         return $data;
+    }
+
+    public function setPassword($password)
+    {
+        $this->password = $password;
+        return $this;
     }
 }
