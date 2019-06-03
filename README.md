@@ -4,7 +4,7 @@ iOS支付验证
 
 ## install
 ```bash
-composer require sn01615/ios-iap-php
+composer require sn01615/apple-iap-php
 ```
 
 ## use
