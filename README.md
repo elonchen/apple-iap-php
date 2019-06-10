@@ -28,3 +28,7 @@ $vv = $cc->query($receipt);
 var_dump($vv);
 
 ```
+
+## 参考链接
+订阅
+https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/StoreKitGuide/Chapters/Subscriptions.html
